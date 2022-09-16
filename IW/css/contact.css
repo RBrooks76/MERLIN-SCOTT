@@ -1,0 +1,63 @@
+.contact-details-wrap{
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+.contact-details-content{
+    font-family: 'Barlow';
+    color: #363636;
+    margin-top: 15px;
+}
+.contact-details-content strong{
+    font-weight: 500;
+    color: #1f7534;
+}
+.form-input-group{
+    margin-bottom: 25px;
+}
+.contact-form-wrap{
+    margin-top: 50px;
+}
+.bottom-0{
+    margin-bottom: 0px;
+}
+.input-group input{
+    height: 42px;
+    font-size: 14px;
+    color: #727272;
+    font-family: 'Barlow';
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #bdbdbd;
+}
+.input-group input:active,.input-group input:focus,.input-group input:hover{
+    outline: 0;
+    box-shadow: 0 0 0 transparent;
+    border: 1px solid #bdbdbd;
+}
+.register-btn{
+    max-width: 196px;
+    width: 100%;
+    height: 37px;
+    background-color: #1f7534;
+    color: #fff;
+    font-family: 'Barlow';
+    box-shadow: 0 0 0 transparent;
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: all 0.3s;
+}
+.register-btn:hover,.register-btn:active,.register-btn:focus{
+    background-color: #cfbd76;
+    outline: 0;
+    box-shadow: 0 0 0 transparent;
+}
+.form-input-group p{
+    color: #9b9b9b;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.form-input-group p strong{
+    color: #ff0000 !important;
+    font-weight: 400;
+}

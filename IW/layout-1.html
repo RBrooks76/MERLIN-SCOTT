@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- for meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- for title -->
+    <title>Ns Development</title>
+    <!-- for css section -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="css/global.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="preload" as="style" href="css/home.css" type="text/css" onload="this.rel='stylesheet'" media="all">
+    <link rel="preload" as="style" href="css/layout.css" type="text/css" onload="this.rel='stylesheet'" media="all">
+    <link rel="preload" as="style" href="css/responsive.css" type="text/css" onload="this.rel='stylesheet'" media="all">
+</head>
+<body>
+    <!-- for header section -->
+    <header id="header">
+      <div class="header-menu">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="main-nav">
+          <div class="container">
+                <button class="navbar-toggler nav-trigger" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav" aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon-1"></span>
+                  <span class="navbar-toggler-icon-2"></span>
+                  <span class="navbar-toggler-icon-3"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-1 justify-content-center" id="header-nav">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Key Accounting Ratios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">All UK Sectors Covered </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Relevant Data</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Industry Benchmarking</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Free Reports</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-section home-hero-bg">
+        <div class="container">
+          <div class="row center-align">
+            <div class="col-md-4 col-4">
+              <div class="brand-logo">
+                <a href="index.html">
+                  <img src="images/logo.webp" alt="company-logo" class="img-fluid" width="236" height="92">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 col-6">
+              <div class="hero-content">
+                <h1>MErlin ScoTt </h1>
+                <strong>Associates Limited</strong>
+              </div>
+            </div>
+            <div class="col-md-4 col-2">
+              <div class="login-wrap">
+                <a href="#!">
+                  <span class="icon-login"><img src="images/icon/login-icon.webp" alt="icon" width="27" height="26"></span>
+                  <strong class="login-text">Login to the Industry <br>
+                    Watch Services</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="company-tagline">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="tagline">"The Industry Watch Service" by Merlin Scott Associates.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+    <!-- for body-content -->
+    <div class="body-content">
+      <!-- for after login content -->
+      <div class="after-login-content">
+          <!-- for login section -->
+          <div class="login-wrap-section">
+            <div class="container container-wrapper">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="login-wrap-heading">
+                    <div class="content-headline">
+                      <span class="headline-icon">
+                        <img src="images/icon/login-gray-icon.webp" alt="login-gray-icon" width="27" height="26">
+                      </span>
+                      <h2>Login</h2>
+                    </div>
+                  </div>
+    
+                  <div class="login-form-wrap">
+                    <div class="input-group input-group-wrap">
+                      <input id="email" type="text" class="form-control" name="text" placeholder="Username">
+                    </div>
+                    <div class="input-group input-group-wrap">
+                      <input id="password" type="password" class="form-control" name="password" placeholder="************">
+                    </div>
+                    <div class="input-group input-group-wrap-btn">
+                      <button type="button" class="submit-login">Login</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- for averages section -->
+          <div class="averages-wrap-section">
+            <div class="container container-wrapper">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="averages-wrap-heading">
+                    <div class="content-headline">
+                      <span class="headline-icon">
+                        <img src="images/icon/averages-icon.webp" alt="averages-icon" width="36" height="36">
+                      </span>
+                      <h2>Industry Averages - <br>
+                        the Key Performance Indicators</h2>
+                    </div>
+                    <div class="averages-content-text">
+                      <p>The key financial ratios and industry averages that characterise each sector are presented over the latest 6 year period...</p>
+                    </div>
+                  </div>
+                  <div class="averages-table-wrap">
+                    <table id="average" class="table table-striped dataTable averagedata" cellspacing="0" role="grid" aria-describedby="average_info">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>2017</th>
+                          <th>2018</th>
+                          <th>2019</th>
+                          <th>2020</th>
+                          <th>2021</th>
+                          <th>2022</th>
+                        </tr>
+                      </thead>
+                      <tbody>  
+                        <tr>
+                          <td class="">Gross Profit Margin (%)</td>
+                          <td>15.97</td>
+                          <td>9.10</td>
+                          <td>6.69</td>
+                          <td>3.48</td>
+                          <td>3.98</td>
+                          <td>5.70</td>
+                        </tr>
+                        <tr>
+                          <td class="">Operating Profit Margin (%)</td>
+                          <td>5.88</td>
+                          <td>1.91</td>
+                          <td>1.96</td>
+                          <td>-0.83</td>
+                          <td>1.01</td>
+                          <td>1.08</td>
+                        </tr>
+                        <tr>
+                          <td class="">Profit Before Interest & Tax Margin (%)</td>
+                          <td>11.30</td>
+                          <td>6.87</td>
+                          <td>4.36</td>
+                          <td>1.37</td>
+                          <td>2.89</td>
+                          <td>3.39</td>
+                        </tr>
+                        <tr>
+                          <td class="">Pre-Tax Profit Margin (%)</td>
+                          <td>-9.52</td>
+                          <td>2.93</td>
+                          <td>2.05</td>
+                          <td>-0.93</td>
+                          <td>0.49</td>
+                          <td>0.47</td>
+                        </tr>
+                        <tr>
+                          <td class="">Return on Total Assets (%)</td>
+                          <td>7.95</td>
+                          <td>0.48</td>
+                          <td>0.42</td>
+                          <td>-2.66</td>
+                          <td>0.53</td>
+                          <td>-1.05</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- for financial section -->
+          <div class="financial-section">
+            <div class="container container-wrapper">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="financial-heading">
+                    <div class="content-headline">
+                      <span class="headline-icon">
+                        <img src="images/icon/financial-icon.webp" alt="financial-icon" width="29" height="34">
+                      </span>
+                      <h2>Independent financial <br> benchmarking data</h2>
+                    </div>
+                    <div class="financial-content-text">
+                      <p>Although SIC codes can be useful, and they are included in the Industry Watch Service, they are not always focused enough for benchmarking purposes. ...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="search-data">
+                    <input id="search" type="text" placeholder="Industry keyword (eg insurance)"/>
+                    <label class="search-now">Search</label>
+                  </div>
+                  <ul class="nav nav-tabs" id="datatab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active" id="researched-tab" data-bs-toggle="tab" data-bs-target="#researched" type="button" role="tab" aria-controls="researched" aria-selected="true">Researched <span class="mobile-hide-text">Industry Sector Reports</span> </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="sic-tab" data-bs-toggle="tab" data-bs-target="#sic" type="button" role="tab" aria-controls="sic" aria-selected="false">SIC <span class="mobile-hide-text">based Industry Sector Reports</span></button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="datatabcontent">
+                    <div class="tab-pane fade show active" id="researched" role="tabpanel" aria-labelledby="researched-tab">                        
+                      <div class="financial-data-body">
+                        <div class="all-data-content-wrap" id="all-data">
+                          <div class="row">
+                            <div class="listing-wrapper-container">
+                              <ul class="datalisting-content">
+                                <li>
+                                  <a href="#!">Abrasives</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Access Control</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Access Equipment</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Accountancy Services</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Additive Manufacturing</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Adhesives & Adhesive Products</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Baby & Nursery Goods</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Babywear</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Bacon Curing & Processing</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Badges Emblems & Insignia</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Bailiffs & Debt Collectors</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Bakers</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Incoming Tour Operators</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Independent Schools</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Industrial & Business Removals</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Industrial Chemicals</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Industrial Cleaning Equipment Suppliers</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Industrial Cleaning Services</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Kart Racing</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Kennels & Catteries</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Kitchen Accessories</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Kitchen Fittings</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Kitchen Furniture Manufacturers</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Knitwear</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="sic" role="tabpanel" aria-labelledby="sic-tab">                       
+                      <div class="financial-data-body">
+                        <div class="all-data-content-wrap" id="all-data">
+                          <div class="row">
+                            <div class="listing-wrapper-container">
+                              <ul class="datalisting-content">
+                                <li>
+                                  <a href="#!">Accounting And Auditing Activities - S I C
+                                    69201</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Activities Auxiliary To Financial Intermediation
+                                    N.E.C. - S I C 66190</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Casting Of Steel - S I C 24520</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Central Banking - S I C 64110</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Child Day-Care Activities - S I C 88910</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Manufacture Of Bread - S I C 10710</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Manufacture Of Brooms And Brushes - S I C 32910</a>
+                                </li>
+                                <li>
+                                  <a href="#!">Manufacture Of Builders Ware Of Plastic - S I C 22230</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- for operating section -->
+          <div class="operating-section">
+            <div class="container container-wrapper">
+              <div class="row">
+                <div class="col-lg-7">
+                  <div class="operating-wrap">
+                    <div class="content-headline">
+                      <span class="headline-icon">
+                        <img src="images/icon/operating-icon.webp" alt="operating-icon" width="36" height="36">
+                      </span>
+                      <h2>Operating  <br> Profit Margin (%)</h2>
+                    </div>
+                    <div class="operating-content-text">
+                      <p>The industry average operating margin for all companies in the period is %.The average for big companies in the period is %. The average operating margin for small companies in the period is %. The best practice companies had an average of % during the period</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="operating-chrat">
+                    <div class="canvas-wrap">
+                      <canvas id="operating-chart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- for best practice section -->
+          <div class="practice-section">
+            <div class="container container-wrapper">
+              <div class="row center-align">
+                <div class="col-lg-6">
+                  <div class="companies-datatable-wrap">
+                    <table id="all-companies" class="table table-striped dataTable averagedata" cellspacing="0" role="grid" aria-describedby="average_info">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>2017</th>
+                          <th>2018</th>
+                          <th>2019</th>
+                          <th>2020</th>
+                          <th>2021</th>
+                          <th>2022</th>
+                        </tr>
+                      </thead>
+                      <tbody>  
+                        <tr>
+                          <td class="">All Companies</td>
+                          <td>5.88</td>
+                          <td>1.91%</td>
+                          <td>1.96%</td>
+                          <td>-0.83%</td>
+                          <td>1.01%</td>
+                          <td>1.08%</td>
+                        </tr>
+                        <tr>
+                          <td class="">Large Companies</td>
+                          <td>5.88</td>
+                          <td>1.91%</td>
+                          <td>1.96%</td>
+                          <td>-0.83%</td>
+                          <td>1.01%</td>
+                          <td>1.08%</td>
+                        </tr>
+                        <tr>
+                          <td class="">Small Companies</td>
+                          <td>5.88</td>
+                          <td>1.91%</td>
+                          <td>1.96%</td>
+                          <td>-0.83%</td>
+                          <td>1.01%</td>
+                          <td>1.08%</td>
+                        </tr>
+                        <tr>
+                          <td class="">Best Practice</td>
+                          <td>5.88</td>
+                          <td>1.91%</td>
+                          <td>1.96%</td>
+                          <td>-0.83%</td>
+                          <td>1.01%</td>
+                          <td>1.08%</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="practice-wrap-img">                
+                    <picture>
+                      <source media="(max-width:650px)" srcset="images/practice-mobile.jpg" width="350" height="213">
+                      <img src="images/practice.webp" alt="practice-img" class="img-fluid" width="420" height="256" loading="lazy">
+                    </picture> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- for benchmark section -->
+          <div class="benchmark-section">
+            <div class="container container-wrapper">
+              <div class="row center-align">
+                <div class="col-lg-6">
+                  <div class="industry-content-wrap">
+                    <div class="content-headline">
+                      <span class="headline-icon">
+                        <img src="images/icon/averages-icon.webp" alt="averages-icon" width="36" height="36">
+                      </span>
+                      <h2>Benchmarking <br> Company Performance</h2>
+                    </div>
+                    <div class="content-show-wrap benchmark-section-wrap">
+                      Financial analysis of company performance requires the calculation of standard accounting ratios such as liquidity ratio, 
+                      current ratio and profitability ratios. 
+                      <div class="show-content">
+                        There are many ratios which can be legitimately used in the analysis of financial statements but the key thing you will need, 
+                        is a suitable benchmark of the value of each financial ratio for similar companies. This is exactly what you are able to view, 
+                        print or export from the Industry Watch Service.
+                      </div>
+                      <a href="javascript:void(0);" class="read-steps">....load more</a>
+                    </div>
+                    <div class="content-italic-text">
+                      <p>Why use independent industry averages for financial analysis?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="employee-chart-wrap">
+                    <div class="canvas-wrap">
+                      <canvas id="benchmark-chart"></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- for service section -->
+          <div class="watch-service-section">
+            <div class="container container-wrapper">
+              <div class="row bottom-align">
+                <div class="col-lg-7">
+                  <div class="watch-service-content">
+                    <div class="content-headline">
+                      <span class="headline-icon">
+                        <img src="images/icon/watch-icon.webp" alt="watch-icon" width="34" height="35">
+                      </span>
+                      <h2>Industry Watch Service <br> - Subscription</h2>
+                    </div>
+                    <div class="watch-service-content">
+                      <p><a href="#!">Inquire here</a> to discuss the any aspect of the service and your requirements <br> if any of your questions remain unanswered.</p>
+                      <p>Meantime be sure to <a href="#!">download the free report</a> to see how easily you can obtain the very latest business information with a subscription to the Industry Watch Service?</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-5">
+                  <div class="stnd-subs-box">
+                    <div class="stnd-subs-heading">
+                      <p>Standard Subscription</p>
+                    </div>
+                    <div class="stnd-subs-body">
+                      <p>365 days access to data on all 1700+ sectors 
+                        - suitable for anyone with an interst in more 
+                        than 3 distinct UK industry sectors.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- for videos section -->
+          <div class="videos-section">
+            <div class="container container-wrapper">
+              <div class="row center-align">
+                <div class="col-lg-6">
+                  <div class="youtube-video">
+                    <iframe src="https://www.youtube.com/embed/lUAWMnvOYFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="industry-btn-group">
+                    <a href="#!" class="btn-first">Click here for live sample of one of the 
+                      1700+ full industry reports</a>
+                      <a href="#!" class="btn-second">Click here for live sample of a sectoranalysis 
+                        report in spreadsheet format</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+      </div>
+      <!-- end after login content -->
+        
+      <!-- for subscription section -->
+      <div class="subscription-wrap" id="subscription-wrap">
+        <div class="subscription-heading">
+          <a href="#!">Subscribe</a>
+        </div>
+        <div class="including-text">
+          <p>Now Including:</p>
+          <p>1700 full Sector Reports</p>
+          <strong>Use the Industry Watch to:</strong>
+          <div class="including-list">
+            <p>Find key UK industry average accounting ratios for company benchmarking</p>
+            <p>Download industry statistics for use in a spreadsheet or financial analysis of your own</p>
+            <p>Compare the latest market trends for any UK sectors and print your analysis</p>
+            <a href="#!" class="reports-btn">
+              Free Reports
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end body-content -->
+    
+
+    <!-- for footer section -->
+    <footer id="footer" class="footer">
+      <div class="footer-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 footer-mob-res">
+              <div class="about-reg">
+                <h3>Merlin Scott Associates Limited</h3>
+                <p>Dunselma Castle, Strone, Dunoon, Argyll, PA23 8RU</p>
+                <p>Company Number: <a href="tel:02810804">02810804</a></p>
+              </div>
+              <div class="footer-logo-wrap">                  
+                <a href="index.html" class="footer-logo">
+                  <img src="images/logo.webp" alt="logo" class="img-fluid"  width="236" height="92">
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-blog">
+                <h3>Contact Us</h3>
+                <p>Tel: <a href="tel:01369 840643">01369 840643</a></p>
+                <p>Email: <a href="mailto:info@merlinscottassociates.co.uk">info@merlinscottassociates.co.uk</a></p>
+                <p><a href="https://www.linkedin.com/" class="social" target="_blank"><img src="images/icon/linkdin.webp" alt="linkdin" class="img-fluid"  width="97" height="24"></a></p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-blog">
+                <h3>Useful Links</h3>
+                <div class="usefullink">
+                  <ul class="links left-width">
+                    <li>
+                      <a href="about-us.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#!">Reports by Industry</a>
+                    </li>
+                    <li>
+                      <a href="#!">Reports by Market</a>
+                    </li>
+                  </ul>
+                  <ul class="links right-width">
+                    <li>
+                      <a href="contact-us.html">Contact</a>
+                    </li>
+                    <li>
+                      <a href="#!">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="#!">Sitemap</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="copyright-text">
+                <ul>
+                  <li>
+                    © 2022 - The Industry Watch Service from Merlin Scott Associates Limited 02810804
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer section -->
+
+    <!-- for js link -->
+    <script defer src="js/jquery-3.5.1.js" type="text/javascript"></script>
+    <script defer src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script defer src="js/chart.min.js" type="text/javascript"></script>
+    <script defer src="js/custom.js" type="text/javascript"></script>
+    <script defer src="js/custom-layout.js" type="text/javascript"></script>
+    <script defer src="js/subscription.js" type="text/javascript"></script>
+</body>
+</html>

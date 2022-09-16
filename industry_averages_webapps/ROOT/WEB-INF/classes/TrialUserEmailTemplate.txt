@@ -1,0 +1,19 @@
+<html>
+   <head></head>
+   <body>
+      <p>Thank you for your request for a free report from the Industry Watch Service.</p>
+      <p>
+         <br /> LINK: 
+         <a href="<FREE_TRIAL_REGISTRATION>?txtEMailAddress=<EMAIL>&amp;password=password">
+            <FREE_TRIAL_REGISTRATION>
+            ?txtEMailAddress=
+            <EMAIL>
+            &amp;password=password
+         </a>
+      </p>
+      <p>Please get in touch if you have any questions.</p>
+      <p>Regards <br /><br /><span style="color: #808080;">Niel Dalrymple | Managing Director </span><br /><span style="color: #808080;">Industry Watch Limited - SC224546 </span><br /><span style="color: #808080;">01369 840643 | 07432699945</span><br /><span style="color: #808080;"><a style="color: #808080;" href="mailto:niel.dalrymple@industrywatch.co.uk">niel.dalrymple@industrywatch.co.uk</a> </span><br /><span style="color: #808080;">Dunselma Castle | Strone | Dunoon | Argyll | PA23 8RU</span></p>
+      <p><br /> <img src="cid:image" /></p>
+      <p><font size="-2"><span style="color: #999999;">This communication together with any attachments transmitted with it is intended only for the use of the addressee and may contain information which is privileged and confidential. If the reader of this EMail is not the intended recipient or the employee or agent responsible for delivering it to the intended recipient you are hereby notified that any use, dissemination, forwarding, printing or copying of this EMail is strictly prohibited. Addressees should check this E-mail for viruses. The Company makes no representations as regards the absence of viruses in this E-Mail. If you have received this E-Mail in error please notify us immediately by e-mail at <a style="color: #999999;" href="mailto:niel.dalrymple@industrywatch.co.uk">niel.dalrymple@industrywatch.co.uk</a>. Please then immediately delete this e-mail and any copies of it. All correspondence relating to offers for property or assets is done on a subject to contract basis.</span></font></p>
+   </body>
+</html>
